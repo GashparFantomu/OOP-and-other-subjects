@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OOP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="executableOOP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="instanteIncuibarite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="this.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="alocare_dinamica.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="polimorfism.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mostenire_virtuala.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="virtualMaiComplex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constructor_copiere_operator_atribuire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="masive_eterogene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractizare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="this_isr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="incapsularea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metode_rivate_incapsulare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EDITING_OOP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functii_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clasa_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clase_cu_resurse_alocate_dinamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
