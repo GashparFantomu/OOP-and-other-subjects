@@ -32,13 +32,13 @@ int main() {
     // Creăm un container de pointeri la Animal
     Animal* cat = new Cat();
     Animal* doggo = new Dog();
-    Animal* aninal = new Animal();
+    Animal* animal = new Animal(); //in Java mereu instantiezi asa deoarece implicit toate metodele sunt virtuale
     cat->speak();
     doggo->speak();
-    aninal->speak();
+    animal->speak();
 
     delete cat;
     delete doggo;
-    delete aninal;
+    delete animal;
     return 0;
 }

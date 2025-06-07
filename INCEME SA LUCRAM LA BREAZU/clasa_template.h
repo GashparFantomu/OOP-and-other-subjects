@@ -6,8 +6,9 @@ class A {
 	T x;
 	U y;
 public:
-	A(T x0, U y0) { 
-		x = x0; y = y0; 
+	A(T x, U y) { 
+		this->x = x; 
+		this->y = y; 
 	}
 	void print() { 
 		cout << x << " " << y << endl; 

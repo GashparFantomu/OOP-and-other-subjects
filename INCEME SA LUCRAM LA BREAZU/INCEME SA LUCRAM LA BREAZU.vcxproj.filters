@@ -32,7 +32,7 @@
     <ClInclude Include="this.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="alocare_dinamica.h">
+    <ClInclude Include="polimorfism1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="polimorfism.h">
@@ -72,6 +72,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="clase_cu_resurse_alocate_dinamic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="afisarea_handicapata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metode_virtuale_instante_obisnuite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="say_hello_to_my_little_friend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptii.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

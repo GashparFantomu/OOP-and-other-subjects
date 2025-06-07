@@ -14,4 +14,5 @@ public:
         cout << "Masina se misca\n";
     }
 };
-//nu iti mai trebe mostenire
+//instanta incuibarita - Masina are un motor - relatie de tip "are un"
+//Mostenirea - o decapotabila (Cabriolet) este o masina - relatie de tip "este un"

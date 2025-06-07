@@ -28,10 +28,10 @@ class CB :public CA
 public: int y;
 	  CB() { y = 2; printf("\nCBI %d %d", x, y); }
 	  ~CB() { printf("\nDB %d %d", x, y); }
-	  CB(int x0, int y0 = 3);
-	  int operator+(int p) { printf("\n BOP + i"); return(x + p + 1); }
-	  int operator+(CB& p) { printf("\nVOP + A");  return (x + p.x); }
-	  friend   int operator+(CB& o1, CB& o2) { printf("\nBOP + B"); return(o1.x + o2.x); }
+	  CB(int x0, int y0 = 3); //parametru implicit
+	  int operator+(int p) { printf("\n BOP + i"); return(x + p + 1); }//implementat prin metoda
+	  int operator+(CB& p) { printf("\nVOP + A");  return (x + p.x); }//implementat prin metoda
+	  friend   int operator+(CB& o1, CB& o2) { printf("\nBOP + B"); return(o1.x + o2.x); }//implementat prin functie friend - pag. 66
 	  void operator=(CB& p) { y = p.x; printf("\nBOP= %d %d", x, y); }
 	  void met2(int r) { printf("\nMET2B %d %d", x, r); }
 	  virtual void met3(int r) { printf("\nMET3B %d %d", x, r); }
@@ -59,7 +59,7 @@ int main()
 	b.met1(31); d.met1(32);
 	printf("\nOP %d %d %d %d"/*, d + b, h + d*/, h.x + 2, d + 1);
 	printf("\nXYZT %d %d %d %d", a.x, b.x, e.x, g.x);
-	g = Incremeneaza(a, b, e, g);
+	g = Incremeneaza(a, b, e, g); //aici este o atribuire cu doua obiecte deja existente -> se apeleaza operatorul de atribuire potrivit
 	printf("\nXYZT %d %d %d %d", a.x, b.x, e.x, g.x);
 	delete f; delete i;
 	d = h; printf("\nd=h %d %d %d %d", d.x, d.y, e.x, d.y, h.x, h.y);

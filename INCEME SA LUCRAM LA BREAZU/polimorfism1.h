@@ -19,7 +19,7 @@ public:
 int main() {
     cout << "--- Obiect direct ---\n";
     Derived d1;
-    d1.show();  // Apelez direct
+    d1.show();  // Apelez direct Base::show
 
     cout << "\n--- Pointer la baza cu instanta derivata ---\n";
     Base* ptr = new Derived();

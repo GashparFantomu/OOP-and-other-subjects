@@ -131,7 +131,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="abstractizare.h" />
-    <ClInclude Include="alocare_dinamica.h" />
+    <ClInclude Include="afisarea_handicapata.h" />
+    <ClInclude Include="exceptii.h" />
+    <ClInclude Include="metode_virtuale_instante_obisnuite.h" />
+    <ClInclude Include="polimorfism1.h" />
     <ClInclude Include="clasa_template.h" />
     <ClInclude Include="clase_cu_resurse_alocate_dinamic.h" />
     <ClInclude Include="constructor_copiere_operator_atribuire.h" />
@@ -145,6 +148,7 @@
     <ClInclude Include="mostenire_virtuala.h" />
     <ClInclude Include="OOP.h" />
     <ClInclude Include="polimorfism.h" />
+    <ClInclude Include="say_hello_to_my_little_friend.h" />
     <ClInclude Include="this.h" />
     <ClInclude Include="this_isr.h" />
     <ClInclude Include="virtualMaiComplex.h" />
