@@ -19,8 +19,8 @@ public: int x;
 CA Incremeneaza(CA x, CA& y, CA z, CA& t) //baaaaaa, se copiaza doar a si e pentru ca y si t au referinta si nu se copiaza
 {//sa fi atent, pentru x si z si r se apeleaza deconstructor, prima data la obiectul local si dupa la parametru
 	CA r; printf("\n++++");
-	x.x++; y.x++; z.x++; t.x++;		r.x = x.x + y.x + z.x + t.x;
-	return r;
+	x.x++; y.x++; z.x++; t.x++;		r.x = x.x + y.x + z.x + t.x;//obiectul ala temp este creat de compilator
+	return r;//isi copiaza valoarea returnata intr-un temp, ca iese din functie si isi curata stiva, dar inainte sa isi curete stiva trebe sa faca curatenie
 }
 
 class CB :public CA
@@ -59,11 +59,11 @@ int main()
 	b.met1(31); d.met1(32);
 	printf("\nOP %d %d %d %d"/*, d + b, h + d*/, h.x + 2, d + 1);
 	printf("\nXYZT %d %d %d %d", a.x, b.x, e.x, g.x);
-	g = Incremeneaza(a, b, e, g); //aici este o atribuire cu doua obiecte deja existente -> se apeleaza operatorul de atribuire potrivit
-	printf("\nXYZT %d %d %d %d", a.x, b.x, e.x, g.x);
+	g = Incremeneaza(a, b, e, g); //aici este o atribuire cu doua obiecte deja existente -> se apeleaza operatorul de atribuire potrivit aka -> g = temp, dupa distruge temp ca nu mai are nevoie de el
+	printf("\nXYZT %d %d %d %d", a.x, b.x, e.x, g.x); //a.x ne-modificat (s-a lucrat cu o copie)
 	delete f; delete i;
 	d = h; printf("\nd=h %d %d %d %d", d.x, d.y, e.x, d.y, h.x, h.y);
 	(cout << endl << c.x) << 2 << c.y << "<<" << (c.x << 2) << c.y;
 	x = new CC(22); delete x;
 	printf("\nSTOP");
-}
+}//la iesirea din mai sunt distruse toate obiectele obisnuite (cele dinamice trebuie sa le stergem noi desi oricum sunt distruse deja) -> se distrug invers
