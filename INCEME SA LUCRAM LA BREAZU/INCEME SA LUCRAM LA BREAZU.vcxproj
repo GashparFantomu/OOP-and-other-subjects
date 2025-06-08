@@ -134,6 +134,7 @@
     <ClInclude Include="afisarea_handicapata.h" />
     <ClInclude Include="exceptii.h" />
     <ClInclude Include="metode_virtuale_instante_obisnuite.h" />
+    <ClInclude Include="operator_atribuire_exemplu_simplu.h" />
     <ClInclude Include="polimorfism1.h" />
     <ClInclude Include="clasa_template.h" />
     <ClInclude Include="clase_cu_resurse_alocate_dinamic.h" />
