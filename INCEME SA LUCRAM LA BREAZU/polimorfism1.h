@@ -4,7 +4,7 @@ using namespace std;
 
 class Base {
 public:
-    virtual void show() const {
+    virtual void show() const = 0{
         cout << "Sunt Base\n";
     }
 };

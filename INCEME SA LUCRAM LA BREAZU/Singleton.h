@@ -6,7 +6,7 @@ class Singleton {
 	Singleton() {}
 public:
 	static Singleton* getInstance();
-	int membru;
+	int membru = 0;
 };
 
 Singleton* Singleton::instance = NULL;
