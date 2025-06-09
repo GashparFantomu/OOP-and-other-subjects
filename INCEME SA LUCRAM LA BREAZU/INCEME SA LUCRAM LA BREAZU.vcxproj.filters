@@ -95,5 +95,8 @@
     <ClInclude Include="exceptie_obiecte.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="factory_method.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
