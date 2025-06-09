@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClInclude Include="abstractizare.h" />
     <ClInclude Include="afisarea_handicapata.h" />
+    <ClInclude Include="exceptie_obiecte.h" />
     <ClInclude Include="exceptii.h" />
     <ClInclude Include="metode_virtuale_instante_obisnuite.h" />
     <ClInclude Include="operator_atribuire_exemplu_simplu.h" />
@@ -150,6 +151,7 @@
     <ClInclude Include="OOP.h" />
     <ClInclude Include="polimorfism.h" />
     <ClInclude Include="say_hello_to_my_little_friend.h" />
+    <ClInclude Include="Singleton.h" />
     <ClInclude Include="this.h" />
     <ClInclude Include="this_isr.h" />
     <ClInclude Include="virtualMaiComplex.h" />

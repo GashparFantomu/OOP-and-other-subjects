@@ -42,6 +42,10 @@ int main() {
     zoo.push_back(new Bird());
     zoo.push_back(new Animal());
 
+    Animal* cat = new Cat();
+    cat->speak();
+
+
     // 2. Tratăm uniform tot containerul
     for (Animal* a : zoo) {
         a->speak();  // apel virtual → fiecare obiect răspunde cu propriul “speak”
