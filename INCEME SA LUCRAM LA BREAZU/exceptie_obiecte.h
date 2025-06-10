@@ -8,12 +8,12 @@ using namespace std;
 class MyException : public exception {
     string msg;
 public:
-    MyException(const string& m){
+    MyException(const string& m){ //te folosesti de constructor pentru  mesajul de eroare
         msg = m;
     }
     const char* what() const noexcept override {
-        return msg.c_str();
-    }
+        return msg.c_str(); 
+    }//echivalentu lui printStackTrace() din Java
 };
 
 int main() {

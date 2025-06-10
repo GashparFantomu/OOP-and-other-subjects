@@ -22,3 +22,4 @@ int main()
 	b.print();
 	
 }//ca masa este facutun vector
+//te folosesti de constructor

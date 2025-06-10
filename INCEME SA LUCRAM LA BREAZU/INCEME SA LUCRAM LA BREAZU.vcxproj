@@ -135,6 +135,7 @@
     <ClInclude Include="exceptie_obiecte.h" />
     <ClInclude Include="exceptii.h" />
     <ClInclude Include="factory_method.h" />
+    <ClInclude Include="masti_cpp.h" />
     <ClInclude Include="metode_virtuale_instante_obisnuite.h" />
     <ClInclude Include="operator_atribuire_exemplu_simplu.h" />
     <ClInclude Include="polimorfism1.h" />
