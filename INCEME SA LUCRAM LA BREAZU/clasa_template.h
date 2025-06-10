@@ -21,4 +21,4 @@ int main()
 	a.print();
 	b.print();
 	
-}
+}//ca masa este facutun vector

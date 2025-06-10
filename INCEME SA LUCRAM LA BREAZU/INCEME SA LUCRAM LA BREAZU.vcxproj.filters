@@ -98,5 +98,8 @@
     <ClInclude Include="factory_method.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="tratare_polimofrica_exce[tii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

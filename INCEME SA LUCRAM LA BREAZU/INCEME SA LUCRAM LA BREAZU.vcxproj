@@ -155,6 +155,7 @@
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="this.h" />
     <ClInclude Include="this_isr.h" />
+    <ClInclude Include="tratare_polimofrica_exce[tii.h" />
     <ClInclude Include="virtualMaiComplex.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

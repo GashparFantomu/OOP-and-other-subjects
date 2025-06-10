@@ -4,7 +4,7 @@
 
 class C {
 public:
-    int x;
+    int x = 0;
     std::string y;
 };
 
